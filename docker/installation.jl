@@ -5,12 +5,12 @@ function installation(command::Symbol=:NOCUDA)
     PKG_NOCUDA = ["AbstractPlotting", "BenchmarkTools", "CSV", "Clustering", "Conda",
                   "DataFrames", "Documenter", "GLMakie", "IJulia", "IterativeSolvers",
                   "JuliaFormatter", "Makie", "Meshes", "OhMyREPL", "Pardiso", "PkgTemplates",
-                  "PlotlyJS", "PyCall", "Query", "Revise", "TimerOutputs", "VegaLite",
+                  "PlotlyJS", "PyCall", "Query", "Revise", "TimerOutputs", "VegaLite", "Weave",
                   "WebIO", "WriteVTK"]
     PKG_CUDA = ["AbstractPlotting", "BenchmarkTools", "CSV", "CUDA", "Clustering", "Conda",
                 "DataFrames", "Documenter", "GLMakie", "IJulia", "IterativeSolvers",
                 "JuliaFormatter", "Makie", "Meshes", "OhMyREPL", "Pardiso", "PkgTemplates",
-                "PlotlyJS", "PyCall", "Query", "Revise", "TimerOutputs", "VegaLite",
+                "PlotlyJS", "PyCall", "Query", "Revise", "TimerOutputs", "VegaLite", "Weave",
                 "WebIO", "WriteVTK"]
 
     if command == :NOCUDA
